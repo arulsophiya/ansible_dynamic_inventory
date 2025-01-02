@@ -1,0 +1,9 @@
+plugin: amazon.aws.aws_ec2
+regions:
+  - us-east-1
+  - us-west-1
+include_filters:
+  - tag:Name:
+      - 'my_first_tag'
+  - tag:Name:
+      - 'my_second_tag'
